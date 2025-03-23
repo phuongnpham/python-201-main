@@ -8,3 +8,8 @@
 from resources import randlist
 
 print(randlist)
+print(max(randlist))
+sum = 0
+for num in randlist:
+    sum += num
+print(sum)
