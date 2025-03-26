@@ -4,3 +4,11 @@
 
 # input = "hello world"
 # result_list = [('h', 'e', 'l', 'l', 'o'), ('w', 'o', 'r', 'l', 'd')]
+
+string = input("Please enter a string: ")
+split_string = string.split()
+result_list =[]
+for word in split_string:
+    word_tuple = tuple(word)
+    result_list.append(word_tuple)
+print(result_list)
