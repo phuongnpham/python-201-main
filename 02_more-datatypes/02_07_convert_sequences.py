@@ -5,3 +5,10 @@
 # - Convert the list back into a tuple.
 
 string = "codingnomads"
+tuple_string = tuple(string)
+print(tuple_string)
+list_string = list(tuple_string)
+print(list_string)
+list_string[0] = "k"
+final_tuple = tuple(list_string)
+print(final_tuple)
