@@ -15,5 +15,14 @@
 from resources import randlist
 
 print(randlist)
-
+pair_list = []
 # Write your code below here
+sorted_list = sorted(randlist)
+print(sorted_list)
+for i in range(0, len(sorted_list), 2):
+    if len(sorted_list) - i == 1:
+        pair_list.append((sorted_list[i], 0))
+    else:
+        pair_list.append((sorted_list[i], sorted_list[i+1]))
+for pair in pair_list:
+    print(pair)
