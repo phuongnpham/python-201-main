@@ -6,4 +6,3 @@ with open("03_file-input-output/words.txt", "r") as file_in:
         word = word.strip()
         if len(word) > 20:
             print(word)
-file_in.close()

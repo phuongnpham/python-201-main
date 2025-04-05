@@ -22,5 +22,3 @@ for word in word_dict.keys():
     if len(word) == longest_word:
         print(f"Longest word: {word}")
 print(f"Total number of words in file: {total_words}")
-
-file_in.close()
