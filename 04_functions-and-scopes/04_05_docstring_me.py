@@ -6,10 +6,10 @@ def km_to_miles(km):
     """Convert kilometer to miles
 
     Args:
-        km (float): the distance in kilometer
+        km (float): The distance in kilometers
 
     Returns:
-        float: the distance in miles
+        float: The distance in miles
     """
     miles = km * 0.6
     return miles

@@ -13,6 +13,6 @@ def write_letter(name, text):
     return letter
 
 name = "John"
-text = "How's it going? Let's catch up soon"
+text = "How's it going? Let's catch up soon."
 letter = write_letter(name, text)
 print(letter)
