@@ -5,6 +5,11 @@
 example_list = [1, 2, 3, 4, 5, 6, 7]
 
 def stats(num_list):
+  """Find the maximum, minimum, average and sum of the numbers
+
+  Args:
+      num_list (list): A list of numbers
+  """
   max_number = max(num_list)
   min_number = min(num_list)
   sum_number = sum(num_list)

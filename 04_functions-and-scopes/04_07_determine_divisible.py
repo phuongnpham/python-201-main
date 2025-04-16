@@ -32,10 +32,10 @@ def is_divisible_by_4_and_7(number):
 user_input = int(input("Please enter a number between 1 and 1,000,000,000: "))
 
 if 1 <= user_input <= 1000000000:
-    or_check = is_divisible_by_4_or_7(user_input)
-    and_check = is_divisible_by_4_and_7(user_input)
+    or_condition_check = is_divisible_by_4_or_7(user_input)
+    and_condition_check = is_divisible_by_4_and_7(user_input)
 
-    print(f"Is {user_input} divisible by 4 or 7? {or_check}")
-    print(f"Is {user_input} divisible by 4 and 7? {and_check}")
+    print(f"Is {user_input} divisible by 4 or 7? {or_condition_check}")
+    print(f"Is {user_input} divisible by 4 and 7? {and_condition_check}")
 else:
     print("Number must be in between 1 and 1,000,000,000")
