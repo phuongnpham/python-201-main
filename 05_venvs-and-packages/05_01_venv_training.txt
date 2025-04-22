@@ -7,3 +7,8 @@ Create a new folder. Inside of that folder:
 6. Delete the virtual environment.
 7. Create a new virtual environment.
 8. Install the packages that you recorded in the `requirements.txt` file.
+
+requirements.txt
+asgiref==3.8.1
+Django==1.8
+sqlparse==0.5.3
