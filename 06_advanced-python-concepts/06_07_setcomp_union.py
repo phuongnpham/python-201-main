@@ -10,3 +10,5 @@
 
 s = {1, 2, 3, 4}
 t = {2, 3, 4, 5, 7}
+st = {x * x for x in (s|t) if x > 2}
+print(st)
